@@ -1,0 +1,26 @@
+@media screen and (max-width: 1200px), (max-width: 1024px), (max-width: 900px) {
+
+    .icon-pokedex img {
+        width: 125px;
+    }
+
+    .pokeContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .imgContainer img {
+        width: 150px;
+        transition: .5s ease-in-out;
+    }
+
+    .info .type {
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 540px){
+    .pokeContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
